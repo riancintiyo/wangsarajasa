@@ -362,6 +362,45 @@
     </div>
   </section>
 
+  <section id="gallery" class="h-100 w-100">
+    <div class="facilities-3-7 overflow-hidden container-xl mx-auto position-relative">
+      <div class="d-flex flex-column text-center w-100" style="margin-bottom: 2.25rem">
+          <h2 class="title-text" style="color:#2e3a53">Our Gallery </h2>
+      </div>
+      <div class="container mx-auto text-center d-lg-flex row mt-2">
+          <div class="col-md-3 col-6 my-2">
+            <div class="gallery">
+                  <a target="_blank" href="assets/img/3dbuilding-f.png">
+                    <img src='assets/img/3dbuilding-f.png' alt='Rajasa Img' width='100%' height='100%'/>
+                  </a>
+                </div>
+          </div>
+          <div class="col-md-3 col-6 my-2">
+            <div class="gallery">
+              <a target="_blank" href="assets/img/3dbuilding.jpg">
+                <img src="assets/img/3dbuilding.jpg" alt="Rajasa Img" width="100%" height="auto">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-6 my-2">
+            <div class="gallery">
+                <a target="_blank" href="assets/img/3dhome.jpg">
+                  <img src="assets/img/3dhome.jpg" alt="Rajasa Img" width="100%" height="auto">
+                </a>
+              </div>
+          </div>
+          <div class="col-md-3 col-6 my-2"> 
+            <div class="gallery">
+              <a target="_blank" href="assets/img/3dbuilding-f.png">
+                <img src="assets/img/3dbuilding-f.png" alt="Rajasa Img" width="100%" height="auto">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section id="harga" class="h-100 w-100" style="box-sizing: border-box; background-color: #f2f6ff">
     <div class="content-3-7 overflow-hidden container-xxl mx-auto position-relative" style="font-family: 'Poppins', sans-serif">
       <div class="container mx-auto">
@@ -439,9 +478,20 @@
               </div>
             </div>
           </div>
+          <div class="d-flex align-items-center justify-content-center mt-2 mx-3">
+          <a target="_blank" href="assets/img/harga.png">
+            <img src='assets/img/harga.png' alt='Rajasa Img'class="img-fluid"/>
+          </a>
+          </div>
+          <div class="detail mx-3">
+            <p class="note" >Note : Kondisi 6 kamar Nilai Sewa RP. 15 Juta/Bulan</p>
+            <p class="deskripsi mt-2">Dengan perhitungan diatas maka waktu yang diperlukan untuk mencapai Break Even Point (BEP) dengan melihat kolom Total, dengan
+              modal investasi Rukos sebesar RP. 2 Miliyar, Maka diperlukan waktu untuk mencapai BEP selama 6 (Enam) tahun. Dengan persentasi Return On
+              Investment (ROI) pada kisaran 15 - 18 % pertahun.</p>
+          </div>
         </div>
       </div>
-      <div class="d-flex justify-content-center align-items-center text-center mt-2" style="text-align: center">
+      <div class="d-flex justify-content-center align-items-center text-center mt-5 pt-2" style="text-align: center">
         <a href="#landing"><button class="btn btn-outline w-60">Dapatkan Promo Menarik</button></a> 
       </div>
     </div>
