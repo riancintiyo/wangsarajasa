@@ -181,7 +181,7 @@
   }
 
   .header-4-3 .navbar {
-    padding: 3rem 6rem;
+    padding: 2rem 6rem;
   }
 
   .header-4-3 .hero {
@@ -407,7 +407,7 @@
 .content-3-7 .price-list .check {
   font: 400 0.875rem/1.25rem Poppins, sans-serif;
   color: #2e3a53;
-  letter-spacing: 0.025em;
+  letter-spacing: 0.015em;
   margin-bottom: 1.75rem;
 }
 
@@ -577,6 +577,72 @@
   padding: 5rem 2rem 7rem;
 }
 
+.facilities-3-7 .card-item {
+  transition: 0.4s;
+  top: 0px;
+  left: 0px;
+  padding: 1rem 0;
+}
+
+.facilities-3-7 .card-item:hover {
+  top: -3px;
+  left: -3px;
+  transition: 0.4s;
+}
+
+.facilities-3-7 .card-item-outline {
+  border: none;
+  padding: 2rem 2.75rem;
+  border-radius: 1rem;
+}
+
+.facilities-3-7 .price-title {
+  font: 500 1.25rem/1.75rem Poppins, sans-serif;
+  color: #141c2e;
+  letter-spacing: 0.025em;
+  margin-bottom: 0.75rem;
+}
+
+.facilities-3-7 .price-value {
+  font: 500 2.25rem/2.5rem Poppins, sans-serif;
+  letter-spacing: 0.025em;
+  margin-bottom: 0.75rem;
+  color: #2e3a53;
+}
+
+.facilities-3-7 .price-duration {
+  font: 400 1rem/1.5rem Poppins, sans-serif;
+  margin: 0.625rem;
+  color: #9e9e9e;
+}
+
+.facilities-3-7 .price-caption {
+  font: 400 1rem/1.5rem Poppins, sans-serif;
+  letter-spacing: 0.025em;
+  margin-bottom: 2.5rem;
+  color: #c3c3c8;
+}
+
+.facilities-3-7 .price-list .check {
+  font: 400 0.875rem/1.25rem Poppins, sans-serif;
+  color: #2e3a53;
+  letter-spacing: 0.025em;
+  margin-bottom: 1.75rem;
+}
+
+.facilities-3-7 .price-list .no-check {
+  font: 400 0.875rem/1.25rem Poppins, sans-serif;
+  color: #e1e1e1;
+  letter-spacing: 0.025em;
+  margin-bottom: 1.75rem;
+}
+
+.facilities-3-7 .span-icon {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.75rem;
+}
+
 .facilities-3-7 .title-text {
   font: 600 1.875rem/2.25rem Poppins, sans-serif;
   /* margin-bottom: 2.5rem; */
@@ -601,14 +667,12 @@
 .facilities-3-7 .icon {
   background-color: green;
   border-radius: 50%;
-  width: 95px;
-  height: 95px;
-  padding: 10px;
 }
 
 .facilities-3-7 .icon img {
-  width: 50px;
-  height: 50px;
+  width: 18px;
+  height: 18px;
+  fill: black;
 }
 
 @media (min-width: 576px) {
@@ -630,8 +694,8 @@
   .facilities-3-7 .icon {
     background-color: green;
     border-radius: 50%;
-    width: 120px;
-    height: 120px;
+    width: 30px;
+    height: 30px;
   }
 }
 
@@ -654,7 +718,7 @@
 
 /* .background-home */
 .background-home {
-  background: url('assets/img/3dhome.jpg');
+  background: #141432;
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;

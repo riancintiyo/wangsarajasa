@@ -75,6 +75,316 @@
         </div>
       </nav>
 
+      <!-- Carousel -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/img/3dhome.jpg" class="d-block w-100" style="height: 530px;" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/3dbuilding.jpg" class="d-block w-100" style="height: 530px;" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/3dhome.jpg" class="d-block w-100" style="height: 530px;" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section id="why" class="h-100 w-100 bg-white" style="box-sizing: border-box">
+    <div class="content-3-1 container-xxl mx-auto position-relative" style="font-family: 'Poppins', sans-serif">
+      <div class="d-flex flex-lg-row flex-column align-items-center">
+        <!-- Left Column -->
+        <div class="img-hero text-center justify-content-center d-flex">
+          <img id="hero" class="img-fluid" src="assets/illus/alasan.svg" alt="" />
+        </div>
+
+        <!-- Right Column -->
+        <div class="right-column d-flex flex-column align-items-lg-start align-items-center text-lg-start text-center">
+          <h2 class="title-text">Alasan Berinvestasi di Wangsarajasa</h2>
+          <ul class="p-0 m-0">
+            <li class="list-unstyled" style="margin-bottom: 2rem">
+              <h4 class="title-caption d-flex flex-lg-row flex-column align-items-center justify-content-lg-start justify-content-center">
+                <span class="circle text-white d-flex align-items-center justify-content-center"> 1 </span>
+                Kawasan Kost Terpadu Pertama di Indonesia
+              </h4>
+              <p class="text-caption">Hadir dengan konsep study, life, play, Wangsarajasa dilengkapi dengan berbagai fasilitas penunjang yang menjadikan Wangsarajasa sebagai kawasan kost terpadu pertama di Indonesia</p>
+            </li>
+            <li class="list-unstyled" style="margin-bottom: 2rem">
+              <h4 class="title-caption d-flex flex-lg-row flex-column align-items-center justify-content-lg-start justify-content-center">
+                <span class="circle text-white d-flex align-items-center justify-content-center"> 2 </span>
+                Dekat dengan Universitas Ternama di Jawa Barat
+              </h4>
+              <p class="text-caption">Dikelilingi oleh universitas ternama seperti UNPAD, ITB, IKOPIN, dan IPDN, Wangsarajasa akan menjadi pilihan pertama untuk para mahasiswa yang membutuhkan hunian di sekitar kampus</p>
+            </li>
+            <li class="list-unstyled" style="margin-bottom: 2rem">
+              <h4 class="title-caption d-flex flex-lg-row flex-column align-items-center justify-content-lg-start justify-content-center">
+                <span class="circle text-white d-flex align-items-center justify-content-center"> 3 </span>
+                Jaminan Okupansi Selama 1 Tahun
+              </h4>
+              <p class="text-caption">Tidak perlu repot lagi mencari penghuni, kami akan menjamin okupansi penuh rumah kost yang telah anda beli selama 1 tahun</p>
+            </li>
+            <li class="list-unstyled" style="margin-bottom: 2rem">
+              <h4 class="title-caption d-flex flex-lg-row flex-column align-items-center justify-content-lg-start justify-content-center">
+                <span class="circle text-white d-flex align-items-center justify-content-center"> 4 </span>
+                Fasilitas Lengkap
+              </h4>
+              <p class="text-caption">Rumah kos yang dilengkapi furnitur, WiFi, dan sistem one gate entrance menjamin kenyamanan penghuni untuk tinggal di kawasan Wangsarajasa</p>
+            </li>
+            <li class="list-unstyled" style="margin-bottom: 4rem">
+              <h4 class="title-caption d-flex flex-lg-row flex-column align-items-center justify-content-lg-start justify-content-center">
+                <span class="circle text-white d-flex align-items-center justify-content-center"> 5 </span>
+                Nilai Investasi Terus Meningkat
+              </h4>
+              <p class="text-caption">Pengembangan kawasan yang terus berlanjut di atas lahan seluas 4 hektar menjamin nilai investasi yang terus meningkat dari kawasan Wangsarajasa</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center align-items-center text-center mt-2" style="text-align: center">
+        <a href="#landing"><button class="btn btn-outline w-60">Mulai Berinvestasi</button></a>
+      </div>
+    </div>
+  </section>
+
+  <section id="harga" class="h-100 w-100" style="box-sizing: border-box; background-color: #f2f6ff">
+    <div class="content-3-7 overflow-hidden container-xxl mx-auto position-relative" style="font-family: 'Poppins', sans-serif">
+      <div class="container mx-auto">
+        <div class="d-flex flex-column text-center w-100" style="margin-bottom: 2.25rem">
+          <h2 class="title-text">Balik Modal Dalam Waktu 6 Tahun</h2>
+          <p class="caption-text mx-auto">Macam - Macam Keuntungan Wangsarajasa<br /></p>
+        </div>
+        <div class="d-flex flex-wrap">
+          <div class="d-flex align-items-center justify-content-center mt-2 mx-3 mb-4">
+            <a target="_blank" href="assets/img/harga.png">
+              <img src='assets/img/harga.png' alt='Rajasa Img' class="img-fluid" />
+            </a>
+          </div>
+          <div class="detail mx-3 mb-5">
+            <p class="note">Note : Kondisi 6 kamar Nilai Sewa RP. 15 Juta/Bulan</p>
+            <p class="deskripsi mt-2">Dengan perhitungan diatas maka waktu yang diperlukan untuk mencapai Break Even Point (BEP) dengan melihat kolom Total, dengan
+              modal investasi Rukos sebesar RP. 2 Miliyar, Maka diperlukan waktu untuk mencapai BEP selama 6 (Enam) tahun. Dengan persentasi Return On
+              Investment (ROI) pada kisaran 15 - 18 % pertahun.</p>
+          </div>
+          <div class="mx-auto card-item position-relative">
+            <div class="card-item-outline bg-white d-flex flex-column position-relative overflow-hidden h-60">
+              <h2 class="price-title">Cash</h2>
+              <div class="price-list">
+                <p class="d-flex align-items-center check">
+                  <span class="span-icon d-inline-flex align-items-center justify-content-center flex-shrink-0">
+                    <img class="img-fluid" src="http://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content3/Content-3-4.png" alt="" /> </span>Starta Title
+                </p>
+                <p class="d-flex align-items-center check">
+                  <span class="span-icon d-inline-flex align-items-center justify-content-center flex-shrink-0">
+                    <img class="img-fluid" src="http://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content3/Content-3-4.png" alt="" /> </span>Rental Income 75 Million/Year
+                </p>
+                <p class="d-flex align-items-center check">
+                  <span class="span-icon d-inline-flex align-items-center justify-content-center flex-shrink-0">
+                    <img class="img-fluid" src="http://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content3/Content-3-4.png" alt="" /> </span>Assets Management Service
+                </p>
+                <p class="d-flex align-items-center check">
+                  <span class="span-icon d-inline-flex align-items-center justify-content-center flex-shrink-0">
+                    <img class="img-fluid" src="http://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content3/Content-3-4.png" alt="" /> </span>Land Assent Increment : ⭐⭐
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="mx-auto card-item position-relative">
+            <div class="card-item-outline bg-white d-flex flex-column position-relative overflow-hidden h-80">
+              <h2 class="price-title">Soft Cash</h2>
+              <div class="price-list">
+                <p class="d-flex align-items-center check">
+                  <span class="span-icon d-inline-flex align-items-center justify-content-center flex-shrink-0">
+                    <img class="img-fluid" src="http://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content3/Content-3-4.png" alt="" /> </span>Ownership SHM
+                </p>
+                <p class="d-flex align-items-center check">
+                  <span class="span-icon d-inline-flex align-items-center justify-content-center flex-shrink-0">
+                    <img class="img-fluid" src="http://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content3/Content-3-4.png" alt="" /> </span>Rental Income 85 Million/Year
+                </p>
+                <p class="d-flex align-items-center check">
+                  <span class="span-icon d-inline-flex align-items-center justify-content-center flex-shrink-0">
+                    <img class="img-fluid" src="http://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content3/Content-3-4.png" alt="" /> </span>Assets Management Service
+                </p>
+                <p class="d-flex align-items-center check">
+                  <span class="span-icon d-inline-flex align-items-center justify-content-center flex-shrink-0">
+                    <img class="img-fluid" src="http://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content3/Content-3-4.png" alt="" /> </span>Land Assent Increment : ⭐⭐
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="mx-auto card-item position-relative">
+            <div class="card-item-outline d-flex flex-column position-relative overflow-hidden h-60" style="background-color: #2e3a53">
+              <h2 class="price-title text-white">KPR</h2>
+              <div class="price-list">
+                <p class="d-flex align-items-center check text-white">
+                  <span class="span-icon d-inline-flex align-items-center justify-content-center flex-shrink-0">
+                    <img class="img-fluid" src="http://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content3/Content-3-6.png" alt="" /> </span>Ownership SHM
+                </p>
+                <p class="d-flex align-items-center check text-white">
+                  <span class="span-icon d-inline-flex align-items-center justify-content-center flex-shrink-0">
+                    <img class="img-fluid" src="http://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content3/Content-3-6.png" alt="" /> </span>Rental Income 108 Million/Year
+                </p>
+                <p class="d-flex align-items-center check text-white">
+                  <span class="span-icon d-inline-flex align-items-center justify-content-center flex-shrink-0">
+                    <img class="img-fluid" src="http://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content3/Content-3-6.png" alt="" /> </span>Assets Management Service
+                </p>
+                <p class="d-flex align-items-center check text-white">
+                  <span class="span-icon d-inline-flex align-items-center justify-content-center flex-shrink-0">
+                    <img class="img-fluid" src="http://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content3/Content-3-6.png" alt="" /> </span>Land Assent Increment : ⭐⭐⭐
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="d-flex justify-content-center align-items-center text-center mt-5 pt-2" style="text-align: center">
+        <a href="#landing"><button class="btn btn-outline w-60">Dapatkan Promo Menarik</button></a>
+      </div>
+    </div>
+  </section>
+
+  <section id="fasilitas" class="h-100 w-100 background-rajasa">
+    <div class="facilities-3-7 overflow-hidden container-xxl mx-auto position-relative" style="font-family: 'Poppins', sans-serif">
+      <div class="container mx-auto">
+        <div class="d-flex flex-column text-center w-100" style="margin-bottom: 3.25rem">
+          <h2 class="title-text">Fasilitas Unggulan Wangsarajasa</h2>
+          <p class="caption-text mx-auto">Fasilitas yang diberikan Wangsarajasa adalah sebagai berikut</p>
+        </div>
+        <div class="d-flex flex-wrap">
+          <div class="mx-auto card-item position-relative">
+            <div class="card-item-outline bg-white d-flex flex-column position-relative overflow-hidden h-60">
+              <h2 class="price-title">Public Facility</h2>
+              <div class="price-list">
+                <p class="d-flex align-items-center check">
+                  <span class="span-icon icon d-inline-flex align-items-center justify-content-center flex-shrink-0">
+                    <img class="img-fluid" src="assets/icon/dormitory.svg" alt="" /> </span>Starta Title
+                </p>
+                <p class="d-flex align-items-center check">
+                  <span class="span-icon d-inline-flex align-items-center justify-content-center flex-shrink-0">
+                    <img class="img-fluid" src="http://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content3/Content-3-4.png" alt="" /> </span>Rental Income 75 Million/Year
+                </p>
+                <p class="d-flex align-items-center check">
+                  <span class="span-icon d-inline-flex align-items-center justify-content-center flex-shrink-0">
+                    <img class="img-fluid" src="http://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content3/Content-3-4.png" alt="" /> </span>Assets Management Service
+                </p>
+                <p class="d-flex align-items-center check">
+                  <span class="span-icon d-inline-flex align-items-center justify-content-center flex-shrink-0">
+                    <img class="img-fluid" src="http://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content3/Content-3-4.png" alt="" /> </span>Land Assent Increment : ⭐⭐
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="mx-auto card-item position-relative">
+            <div class="card-item-outline bg-white d-flex flex-column position-relative overflow-hidden h-60">
+              <h2 class="price-title">Sport Facility</h2>
+              <div class="price-list">
+                <p class="d-flex align-items-center check">
+                  <span class="span-icon d-inline-flex align-items-center justify-content-center flex-shrink-0">
+                    <img class="img-fluid" src="http://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content3/Content-3-4.png" alt="" /> </span>Ownership SHM
+                </p>
+                <p class="d-flex align-items-center check">
+                  <span class="span-icon d-inline-flex align-items-center justify-content-center flex-shrink-0">
+                    <img class="img-fluid" src="http://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content3/Content-3-4.png" alt="" /> </span>Rental Income 85 Million/Year
+                </p>
+                <p class="d-flex align-items-center check">
+                  <span class="span-icon d-inline-flex align-items-center justify-content-center flex-shrink-0">
+                    <img class="img-fluid" src="http://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content3/Content-3-4.png" alt="" /> </span>Assets Management Service
+                </p>
+                <p class="d-flex align-items-center check">
+                  <span class="span-icon d-inline-flex align-items-center justify-content-center flex-shrink-0">
+                    <img class="img-fluid" src="http://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content3/Content-3-4.png" alt="" /> </span>Land Assent Increment : ⭐⭐
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="mx-auto card-item position-relative">
+            <div class="card-item-outline bg-white d-flex flex-column position-relative overflow-hidden h-60">
+              <h2 class="price-title">Outdoor</h2>
+              <div class="price-list">
+                <p class="d-flex align-items-center check">
+                  <span class="span-icon d-inline-flex align-items-center justify-content-center flex-shrink-0">
+                    <img class="img-fluid" src="http://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content3/Content-3-4.png" alt="" /> </span>Ownership SHM
+                </p>
+                <p class="d-flex align-items-center check">
+                  <span class="span-icon d-inline-flex align-items-center justify-content-center flex-shrink-0">
+                    <img class="img-fluid" src="http://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content3/Content-3-4.png" alt="" /> </span>Rental Income 108 Million/Year
+                </p>
+                <p class="d-flex align-items-center check">
+                  <span class="span-icon d-inline-flex align-items-center justify-content-center flex-shrink-0">
+                    <img class="img-fluid" src="http://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content3/Content-3-4.png" alt="" /> </span>Assets Management Service
+                </p>
+                <p class="d-flex align-items-center check">
+                  <span class="span-icon d-inline-flex align-items-center justify-content-center flex-shrink-0">
+                    <img class="img-fluid" src="http://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content3/Content-3-4.png" alt="" /> </span>Land Assent Increment : ⭐⭐
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="h-100 w-100">
+    <div class="facilities-3-7 overflow-hidden container-xl mx-auto position-relative">
+      <div class="d-flex flex-column text-center w-100" style="margin-bottom: 2.25rem">
+        <h2 class="title-text" style="color:#2e3a53">Our Gallery </h2>
+      </div>
+      <div class="container mx-auto text-center d-lg-flex row mt-2">
+        <div class="col-md-3 col-6 my-2">
+          <div class="gallery">
+            <a target="_blank" href="assets/img/3dbuilding-f.png">
+              <img src='assets/img/3dbuilding-f.png' alt='Rajasa Img' width='100%' height='100%' />
+            </a>
+          </div>
+        </div>
+        <div class="col-md-3 col-6 my-2">
+          <div class="gallery">
+            <a target="_blank" href="assets/img/3dbuilding.jpg">
+              <img src="assets/img/3dbuilding.jpg" alt="Rajasa Img" width="100%" height="auto">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-3 col-6 my-2">
+          <div class="gallery">
+            <a target="_blank" href="assets/img/3dhome.jpg">
+              <img src="assets/img/3dhome.jpg" alt="Rajasa Img" width="100%" height="auto">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-3 col-6 my-2">
+          <div class="gallery">
+            <a target="_blank" href="assets/img/3dbuilding-f.png">
+              <img src="assets/img/3dbuilding-f.png" alt="Rajasa Img" width="100%" height="auto">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+
+  <!-- Form Daftar -->
+  <section class="h-100 w-100 form">
+    <div class="header-4-3 container-xxl mx-auto p-0 position-relative" style="font-family: 'Poppins', sans-serif">
       <div id="landing" class="background-home">
         <div class="mx-auto align-items-center d-flex flex-lg-row flex-column hero">
           <!-- Left Column -->
@@ -98,19 +408,19 @@
                 <div class="d-flex flex-wrap">
                   <div class="card p-3 mx-auto mb-4 position-relative w-md-50 w-sm-100 rounded-3">
                     <div class="card-body">
-                    <p>Dapatkan Potongan DP <span style="text-decoration:line-through;color:red">250 Juta</span> Menjadi <span style="color:red"> 50 Juta</span><br> Dengan Mengisi Form di Bawah Ini</p>
+                      <p>Dapatkan Potongan DP <span style="text-decoration:line-through;color:red">250 Juta</span> Menjadi <span style="color:red"> 50 Juta</span><br> Dengan Mengisi Form di Bawah Ini</p>
                       <form id="inputform" action="simpan.php" method="post">
                         <div class="mb-3">
                           <label for="exampleFormControlInput1" class="form-label">Nama Lengkap</label>
-                          <input type="text" name="nama" class="form-control" id="exampleFormControlInput1" placeholder="Nama Lengkap" required/>
+                          <input type="text" name="nama" class="form-control" id="exampleFormControlInput1" placeholder="Nama Lengkap" required />
                         </div>
                         <div class="mb-3">
                           <label for="exampleFormControlInput1" class="form-label">Pekerjaan</label>
-                          <input type="text" name="pekerjaan" class="form-control" id="exampleFormControlInput1" placeholder="Pekerjaan" required/>
+                          <input type="text" name="pekerjaan" class="form-control" id="exampleFormControlInput1" placeholder="Pekerjaan" required />
                         </div>
                         <div class="mb-3">
                           <label for="exampleFormControlInput1" class="form-label">Alamat Tempat Tinggal</label>
-                          <input type="text" name="alamat" class="form-control" id="exampleFormControlInput1" placeholder="Alamat" required/>
+                          <input type="text" name="alamat" class="form-control" id="exampleFormControlInput1" placeholder="Alamat" required />
                         </div>
                         <div class="mb-3">
                           <label for="exampleFormControlInput1" class="form-label">Nomor Whatsapp</label>
@@ -121,7 +431,7 @@
                         </div>
                         <div class="mb-3">
                           <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                          <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="Email Address" required/>
+                          <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="Email Address" required />
                         </div>
                         <!-- <div class="mb-3">
                             <label for="">Kapan Rencana Membeli Property ?</label>
@@ -211,7 +521,7 @@
 
                 // check input form 
                 // function validateForm() {
-                  
+
                 // }
               </script>
             </div>
@@ -220,284 +530,6 @@
       </div>
     </div>
   </section>
-
-  <section id="why" class="h-100 w-100 bg-white" style="box-sizing: border-box">
-    <div class="content-3-1 container-xxl mx-auto position-relative" style="font-family: 'Poppins', sans-serif">
-      <div class="d-flex flex-lg-row flex-column align-items-center">
-        <!-- Left Column -->
-        <div class="img-hero text-center justify-content-center d-flex">
-          <img id="hero" class="img-fluid" src="assets/illus/alasan.svg" alt="" />
-        </div>
-
-        <!-- Right Column -->
-        <div class="right-column d-flex flex-column align-items-lg-start align-items-center text-lg-start text-center">
-          <h2 class="title-text">Alasan Berinvestasi di Wangsarajasa</h2>
-          <ul class="p-0 m-0">
-            <li class="list-unstyled" style="margin-bottom: 2rem">
-              <h4 class="title-caption d-flex flex-lg-row flex-column align-items-center justify-content-lg-start justify-content-center">
-                <span class="circle text-white d-flex align-items-center justify-content-center"> 1 </span>
-                Kawasan Kost Terpadu Pertama di Indonesia
-              </h4>
-              <p class="text-caption">Hadir dengan konsep study, life, play, Wangsarajasa dilengkapi dengan berbagai fasilitas penunjang yang menjadikan Wangsarajasa sebagai kawasan kost terpadu pertama di Indonesia</p>
-            </li>
-            <li class="list-unstyled" style="margin-bottom: 2rem">
-              <h4 class="title-caption d-flex flex-lg-row flex-column align-items-center justify-content-lg-start justify-content-center">
-                <span class="circle text-white d-flex align-items-center justify-content-center"> 2 </span>
-                Dekat dengan Universitas Ternama di Jawa Barat
-              </h4>
-              <p class="text-caption">Dikelilingi oleh universitas ternama seperti UNPAD, ITB, IKOPIN, dan IPDN, Wangsarajasa akan menjadi pilihan pertama untuk para mahasiswa yang membutuhkan hunian di sekitar kampus</p>
-            </li>
-            <li class="list-unstyled" style="margin-bottom: 2rem">
-              <h4 class="title-caption d-flex flex-lg-row flex-column align-items-center justify-content-lg-start justify-content-center">
-                <span class="circle text-white d-flex align-items-center justify-content-center"> 3 </span>
-                Jaminan Okupansi Selama 1 Tahun
-              </h4>
-              <p class="text-caption">Tidak perlu repot lagi mencari penghuni, kami akan menjamin okupansi penuh rumah kost yang telah anda beli selama 1 tahun</p>
-            </li>
-            <li class="list-unstyled" style="margin-bottom: 2rem">
-              <h4 class="title-caption d-flex flex-lg-row flex-column align-items-center justify-content-lg-start justify-content-center">
-                <span class="circle text-white d-flex align-items-center justify-content-center"> 4 </span>
-                Fasilitas Lengkap
-              </h4>
-              <p class="text-caption">Rumah kos yang dilengkapi furnitur, WiFi, dan sistem one gate entrance menjamin kenyamanan penghuni untuk tinggal di kawasan Wangsarajasa</p>
-            </li>
-            <li class="list-unstyled" style="margin-bottom: 4rem">
-              <h4 class="title-caption d-flex flex-lg-row flex-column align-items-center justify-content-lg-start justify-content-center">
-                <span class="circle text-white d-flex align-items-center justify-content-center"> 5 </span>
-                Nilai Investasi Terus Meningkat
-              </h4>
-              <p class="text-caption">Pengembangan kawasan yang terus berlanjut di atas lahan seluas 4 hektar menjamin nilai investasi yang terus meningkat dari kawasan Wangsarajasa</p>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="d-flex justify-content-center align-items-center text-center mt-2" style="text-align: center">
-        <a href="#landing"><button class="btn btn-outline w-60">Mulai Berinvestasi</button></a>
-      </div>
-    </div>
-  </section>
-
-  <section id="fasilitas" class="h-100 w-100 background-rajasa">
-    <div class="facilities-3-7 overflow-hidden container-xxl mx-auto position-relative" style="font-family: 'Poppins', sans-serif">
-      <div class="container mx-auto">
-        <div class="d-flex flex-column text-center w-100" style="margin-bottom: 3.25rem">
-          <h2 class="title-text">Fasilitas Unggulan Wangsarajasa</h2>
-          <p class="caption-text mx-auto">Fasilitas yang diberikan Wangsarajasa adalah sebagai berikut</p>
-        </div>
-        <div class="text-center d-lg-flex row">
-          <div class="col-md-3 col-6 mb-5">
-            <div class="icon mx-auto d-grid justify-content-center align-items-center">
-              <img src="assets/icon/dormitory.svg" class="text-center align-center py-auto" alt="" />
-            </div>
-            <p class="detail-text mt-3">Dormitory</p>
-          </div>
-          <div class="col-md-3 col-6 mb-5">
-            <div class="icon mx-auto d-grid justify-content-center align-items-center">
-              <img src="assets/icon/student-center.svg" class="text-center align-center py-auto" alt="" />
-            </div>
-            <p class="detail-text mt-3">Student Center</p>
-          </div>
-          <div class="col-md-3 col-6 mb-5">
-            <div class="icon mx-auto d-grid justify-content-center align-items-center">
-              <img src="assets/icon/mosque.svg" class="text-center align-center py-auto" alt="" />
-            </div>
-            <p class="detail-text mt-3">Mosque</p>
-          </div>
-          <div class="col-md-3 col-6 mb-5">
-            <div class="icon mx-auto d-grid justify-content-center align-items-center">
-              <img src="assets/icon/club-house.svg" class="text-center align-center py-auto" alt="" />
-            </div>
-            <p class="detail-text mt-3">Club House</p>
-          </div>
-          <div class="col-md-3 col-6 mb-5">
-            <div class="icon mx-auto d-grid justify-content-center align-items-center">
-              <img src="assets/icon/public.svg" class="text-center align-center py-auto" alt="" />
-            </div>
-            <p class="detail-text mt-3">Public Space</p>
-          </div>
-          <div class="col-md-3 col-6 mb-5">
-            <div class="icon mx-auto d-grid justify-content-center align-items-center">
-              <img src="assets/icon/wifi.svg" class="text-center align-center py-auto" alt="" />
-            </div>
-            <p class="detail-text mt-3">Wifi</p>
-          </div>
-          <div class="col-md-3 col-6 mb-5">
-            <div class="icon mx-auto d-grid justify-content-center align-items-center">
-              <img src="assets/icon/basket-court.svg" class="text-center align-center py-auto" alt="" />
-            </div>
-            <p class="detail-text mt-3">Basket Court</p>
-          </div>
-          <div class="col-md-3 col-6 mb-5">
-            <div class="icon mx-auto d-grid justify-content-center align-items-center">
-              <img src="assets/icon/soccer-filed.svg" class="text-center align-center py-auto" alt="" />
-            </div>
-            <p class="detail-text mt-3">Soccer Field</p>
-          </div>
-          <div class="col-md-3 col-6 mb-5">
-            <div class="icon mx-auto d-grid justify-content-center align-items-center">
-              <img src="assets/icon/swiming-pool.svg" class="text-center align-center py-auto" alt="" />
-            </div>
-            <p class="detail-text mt-3">Swimming Pool</p>
-          </div>
-          <div class="col-md-3 col-6 mb-5">
-            <div class="icon mx-auto d-grid justify-content-center align-items-center">
-              <img src="assets/icon/dormitory.svg" class="text-center align-center py-auto" alt="" />
-            </div>
-            <p class="detail-text mt-3">Cafe</p>
-          </div>
-          <div class="col-md-3 col-6 mb-5">
-            <div class="icon mx-auto d-grid justify-content-center align-items-center">
-              <img src="assets/icon/gym.svg" class="text-center align-center py-auto text-white" alt="" />
-            </div>
-            <p class="detail-text mt-3">Gym</p>
-          </div>
-          <div class="col-md-3 col-6 mb-5">
-            <div class="icon mx-auto d-grid justify-content-center align-items-center">
-              <img src="assets/icon/store.png" class="text-center align-center py-auto" alt="" />
-            </div>
-            <p class="detail-text mt-3">Commercial Area</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="gallery" class="h-100 w-100">
-    <div class="facilities-3-7 overflow-hidden container-xl mx-auto position-relative">
-      <div class="d-flex flex-column text-center w-100" style="margin-bottom: 2.25rem">
-          <h2 class="title-text" style="color:#2e3a53">Our Gallery </h2>
-      </div>
-      <div class="container mx-auto text-center d-lg-flex row mt-2">
-          <div class="col-md-3 col-6 my-2">
-            <div class="gallery">
-                  <a target="_blank" href="assets/img/3dbuilding-f.png">
-                    <img src='assets/img/3dbuilding-f.png' alt='Rajasa Img' width='100%' height='100%'/>
-                  </a>
-                </div>
-          </div>
-          <div class="col-md-3 col-6 my-2">
-            <div class="gallery">
-              <a target="_blank" href="assets/img/3dbuilding.jpg">
-                <img src="assets/img/3dbuilding.jpg" alt="Rajasa Img" width="100%" height="auto">
-              </a>
-            </div>
-          </div>
-          <div class="col-md-3 col-6 my-2">
-            <div class="gallery">
-                <a target="_blank" href="assets/img/3dhome.jpg">
-                  <img src="assets/img/3dhome.jpg" alt="Rajasa Img" width="100%" height="auto">
-                </a>
-              </div>
-          </div>
-          <div class="col-md-3 col-6 my-2"> 
-            <div class="gallery">
-              <a target="_blank" href="assets/img/3dbuilding-f.png">
-                <img src="assets/img/3dbuilding-f.png" alt="Rajasa Img" width="100%" height="auto">
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="harga" class="h-100 w-100" style="box-sizing: border-box; background-color: #f2f6ff">
-    <div class="content-3-7 overflow-hidden container-xxl mx-auto position-relative" style="font-family: 'Poppins', sans-serif">
-      <div class="container mx-auto">
-        <div class="d-flex flex-column text-center w-100" style="margin-bottom: 2.25rem">
-          <h2 class="title-text">Balik Modal Dalam Waktu 6 Tahun</h2>
-          <p class="caption-text mx-auto">Macam - Macam Keuntungan Wangsarajasa<br /></p>
-        </div>
-        <div class="d-flex flex-wrap">
-          <div class="mx-auto card-item position-relative">
-            <div class="card-item-outline bg-white d-flex flex-column position-relative overflow-hidden h-60">
-              <h2 class="price-title">Apartment</h2>
-              <div class="price-list">
-                <p class="d-flex align-items-center check">
-                  <span class="span-icon d-inline-flex align-items-center justify-content-center flex-shrink-0">
-                    <img class="img-fluid" src="http://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content3/Content-3-4.png" alt="" /> </span>Starta Title
-                </p>
-                <p class="d-flex align-items-center check">
-                  <span class="span-icon d-inline-flex align-items-center justify-content-center flex-shrink-0">
-                    <img class="img-fluid" src="http://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content3/Content-3-4.png" alt="" /> </span>Rental Income 75 Million/Year
-                </p>
-                <p class="d-flex align-items-center check">
-                  <span class="span-icon d-inline-flex align-items-center justify-content-center flex-shrink-0">
-                    <img class="img-fluid" src="http://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content3/Content-3-4.png" alt="" /> </span>Assets Management Service
-                </p>
-                <p class="d-flex align-items-center check">
-                  <span class="span-icon d-inline-flex align-items-center justify-content-center flex-shrink-0">
-                    <img class="img-fluid" src="http://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content3/Content-3-4.png" alt="" /> </span>Land Assent Increment : ⭐⭐
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="mx-auto card-item position-relative">
-            <div class="card-item-outline bg-white d-flex flex-column position-relative overflow-hidden h-80">
-              <h2 class="price-title">Other Rukos</h2>
-              <div class="price-list">
-                <p class="d-flex align-items-center check">
-                  <span class="span-icon d-inline-flex align-items-center justify-content-center flex-shrink-0">
-                    <img class="img-fluid" src="http://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content3/Content-3-4.png" alt="" /> </span>Ownership SHM
-                </p>
-                <p class="d-flex align-items-center check">
-                  <span class="span-icon d-inline-flex align-items-center justify-content-center flex-shrink-0">
-                    <img class="img-fluid" src="http://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content3/Content-3-4.png" alt="" /> </span>Rental Income 85 Million/Year
-                </p>
-                <p class="d-flex align-items-center check">
-                  <span class="span-icon d-inline-flex align-items-center justify-content-center flex-shrink-0">
-                    <img class="img-fluid" src="http://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content3/Content-3-4.png" alt="" /> </span>Assets Management Service
-                </p>
-                <p class="d-flex align-items-center check">
-                  <span class="span-icon d-inline-flex align-items-center justify-content-center flex-shrink-0">
-                    <img class="img-fluid" src="http://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content3/Content-3-4.png" alt="" /> </span>Land Assent Increment : ⭐⭐
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="mx-auto card-item position-relative">
-            <div class="card-item-outline d-flex flex-column position-relative overflow-hidden h-60" style="background-color: #2e3a53">
-              <h2 class="price-title text-white">Wangsarajasa</h2>
-              <div class="price-list">
-                <p class="d-flex align-items-center check text-white">
-                  <span class="span-icon d-inline-flex align-items-center justify-content-center flex-shrink-0">
-                    <img class="img-fluid" src="http://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content3/Content-3-6.png" alt="" /> </span>Ownership SHM
-                </p>
-                <p class="d-flex align-items-center check text-white">
-                  <span class="span-icon d-inline-flex align-items-center justify-content-center flex-shrink-0">
-                    <img class="img-fluid" src="http://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content3/Content-3-6.png" alt="" /> </span>Rental Income 108 Million/Year
-                </p>
-                <p class="d-flex align-items-center check text-white">
-                  <span class="span-icon d-inline-flex align-items-center justify-content-center flex-shrink-0">
-                    <img class="img-fluid" src="http://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content3/Content-3-6.png" alt="" /> </span>Assets Management Service
-                </p>
-                <p class="d-flex align-items-center check text-white">
-                  <span class="span-icon d-inline-flex align-items-center justify-content-center flex-shrink-0">
-                    <img class="img-fluid" src="http://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content3/Content-3-6.png" alt="" /> </span>Land Assent Increment : ⭐⭐⭐
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="d-flex align-items-center justify-content-center mt-2 mx-3">
-          <a target="_blank" href="assets/img/harga.png">
-            <img src='assets/img/harga.png' alt='Rajasa Img'class="img-fluid"/>
-          </a>
-          </div>
-          <div class="detail mx-3">
-            <p class="note" >Note : Kondisi 6 kamar Nilai Sewa RP. 15 Juta/Bulan</p>
-            <p class="deskripsi mt-2">Dengan perhitungan diatas maka waktu yang diperlukan untuk mencapai Break Even Point (BEP) dengan melihat kolom Total, dengan
-              modal investasi Rukos sebesar RP. 2 Miliyar, Maka diperlukan waktu untuk mencapai BEP selama 6 (Enam) tahun. Dengan persentasi Return On
-              Investment (ROI) pada kisaran 15 - 18 % pertahun.</p>
-          </div>
-        </div>
-      </div>
-      <div class="d-flex justify-content-center align-items-center text-center mt-5 pt-2" style="text-align: center">
-        <a href="#landing"><button class="btn btn-outline w-60">Dapatkan Promo Menarik</button></a> 
-      </div>
-    </div>
-  </section>
-
-  <!-- Form Daftar -->
   <!-- <section class="h-100 w-100" style="box-sizing: border-box; background-color: #141432">
       <div class="content-3-7 overflow-hidden container-xxl mx-auto position-relative" style="font-family: 'Poppins', sans-serif">
         <div class="container mx-auto">
